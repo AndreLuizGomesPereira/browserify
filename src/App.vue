@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <my-menu></my-menu>
+    <my-menu title="Meu App"></my-menu>
     <h1>{{ msg }}</h1>
   </div>
 </template>

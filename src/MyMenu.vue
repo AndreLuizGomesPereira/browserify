@@ -1,11 +1,10 @@
 <template>
-  <div>Menu</div>
+  <h4>{{ title }}</h4>
 </template>
 
 <script>
-export default {};
+export default {
+    props: ['title']
+};
 </script>
-    export default {
-
-    }
 <style></style>
