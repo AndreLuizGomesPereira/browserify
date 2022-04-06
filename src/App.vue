@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <my-menu title="Meu App"></my-menu>
+    <my-menu title="My App">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </my-menu>
     <h1>{{ msg }}</h1>
   </div>
 </template>
