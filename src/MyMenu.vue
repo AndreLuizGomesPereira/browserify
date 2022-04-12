@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div @click="onMenuClick">
     <h4>{{ title }}</h4>
     <div>
       <slot></slot>
@@ -10,6 +10,15 @@
 <script>
 export default {
   props: ["title"],
+  methods: {
+    onMenuClick(event) {
+      this.$emit("menu-click", event);
+    },
+  },
 };
 </script>
-<style></style>
+<style>
+  div {
+    cursor: pointer;
+  }
+</style>

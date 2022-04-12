@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <my-menu title="My App">
+    <my-menu title="My App" v-on:menu-click="onMenuClick">
       <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -20,6 +20,11 @@ export default {
     return {
       msg: "Olá Vue",
     };
+  },
+  methods: {
+    onMenuClick(event) {
+      alert('Menu Click')
+    },
   },
 };
 </script>
