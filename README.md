@@ -8,8 +8,8 @@
 >> vue init browserify-simple my-vue-app
 
 ## Iremos utilizar o framework de estilização Materialize e Jquery
->> npm i -S materialize-css
->> npm i jquery
+>> - npm i -S materialize-css
+>> - npm i jquery
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
