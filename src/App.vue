@@ -12,5 +12,6 @@ import AppContent from "./layout/AppContent.vue";
 import AppFooter from "./layout/AppFooter.vue";
 export default {
   components: { AppHeader, AppContent, AppFooter },
+  
 };
 </script>
